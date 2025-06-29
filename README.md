@@ -21,10 +21,10 @@ Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) atau se
 
   ⚙️ Teknologi yang digunakan
 
-    Bash: Script utama untuk proses backup dan automasi
+  1.Bash: Script utama untuk proses backup dan automation
 
-    rclone: Untuk sinkronisasi file backup ke cloud
+  2.rclone: Untuk sinkronisasi file backup ke cloud
 
-    cron: Menjalankan backup secara berkala
+  3.cron: Menjalankan backup secara berkala
 
-    Discord Webhook: Notifikasi status backup
+  4.Discord Webhook: Notifikasi status backup
