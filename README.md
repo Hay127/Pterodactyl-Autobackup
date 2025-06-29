@@ -39,6 +39,12 @@ Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) atau se
 
   rclone lsd [Nama]: => Fungsinya adalah untuk mengecek apakah rclone berhasil terhubung ke cloud drive kalian
 
+  apt install tmux => Tools ini berfungsi agar autobackup tetap berjalan di latar belakang
+
+  tmux new -s backup => untuk membuka sesi baru
+
+  
+
 
   
 
