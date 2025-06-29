@@ -1,7 +1,7 @@
 # Pterodactyl-Autobackup
 
 Script otomatis untuk melakukan backup seluruh server di panel Pterodactyl.
-Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) atau server lokal melalui SFTP.
+Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) , server lokal melalui SFTP , Nextcloud Dan Masih Banyak Lagi
 
 
 ✨ Fitur
