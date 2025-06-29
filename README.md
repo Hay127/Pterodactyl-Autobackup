@@ -19,6 +19,8 @@ Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) atau se
   6.Log detail proses backup
 
 
+
+
   ⚙️ Teknologi yang digunakan
 
   1.Bash: Script utama untuk proses backup dan automation
