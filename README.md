@@ -3,6 +3,7 @@
 Script otomatis untuk melakukan backup seluruh server di panel Pterodactyl.
 Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) atau server lokal melalui SFTP.
 
+
 ✨ Fitur
 
   1.Backup otomatis seluruh server berdasarkan UUID
@@ -16,3 +17,14 @@ Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) atau se
   5.Notifikasi via Discord webhook ketika backup berhasil atau gagal
   
   6.Log detail proses backup
+
+
+  ⚙️ Teknologi yang digunakan
+
+    -> Bash: Script utama untuk proses backup dan automasi
+
+    -> rclone: Untuk sinkronisasi file backup ke cloud
+
+    -> cron: Menjalankan backup secara berkala
+
+    -> Discord Webhook: Notifikasi status backup
