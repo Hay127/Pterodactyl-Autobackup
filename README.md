@@ -33,6 +33,8 @@ Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) atau se
   
   Langkah Instalasi:
 
+    apt update && apt upgrade
+    
     curl https://rclone.org/install.sh | sudo bash => untuk menginstall rclone 
 
     rclone config => Isi semua konfigurasi yang diperlukan
@@ -42,6 +44,17 @@ Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) atau se
     apt install tmux => Tools ini berfungsi agar autobackup tetap berjalan di latar belakang
 
     tmux new -s backup => untuk membuka sesi baru
+
+    https://github.com/Hay127/Pterodactyl-Autobackup.git
+
+    nano autobackup.sh => Edit Konfigurasimu
+
+    /bin/bash /root/autobackup.sh => Untuk memulai backup manual
+
+    crontab -e => Untuk backup otomatis
+    0 2 * * * /bin/bash /root/autobackup.sh >> /var/log/pautobackup.log 2>&1 => Konfigurasi untuk backup setiap jam 2 pagi
+
+
 
   
 
