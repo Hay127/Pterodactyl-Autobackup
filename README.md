@@ -30,6 +30,7 @@ Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) atau se
 
   4.Discord Webhook: Notifikasi status backup
 
+  
   Langkah Instalasi:
 
   curl https://rclone.org/install.sh | sudo bash => untuk menginstall rclone 
