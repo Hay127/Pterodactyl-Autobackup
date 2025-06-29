@@ -33,15 +33,15 @@ Mendukung penyimpanan ke cloud seperti Google Drive (menggunakan rclone) atau se
   
   Langkah Instalasi:
 
-  curl https://rclone.org/install.sh | sudo bash => untuk menginstall rclone 
+   curl https://rclone.org/install.sh | sudo bash => untuk menginstall rclone 
 
-  rclone config => Isi semua konfigurasi yang diperlukan
+   rclone config => Isi semua konfigurasi yang diperlukan
 
-  rclone lsd [Nama]: => Fungsinya adalah untuk mengecek apakah rclone berhasil terhubung ke cloud drive kalian
+   rclone lsd [Nama]: => Fungsinya adalah untuk mengecek apakah rclone berhasil terhubung ke cloud drive kalian
 
-  apt install tmux => Tools ini berfungsi agar autobackup tetap berjalan di latar belakang
+   apt install tmux => Tools ini berfungsi agar autobackup tetap berjalan di latar belakang
 
-  tmux new -s backup => untuk membuka sesi baru
+   tmux new -s backup => untuk membuka sesi baru
 
   
 
